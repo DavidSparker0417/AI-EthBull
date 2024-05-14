@@ -1,7 +1,7 @@
 {
-  "name": "telegram-bot",
+  "name": "EthBull-ChatBot",
   "version": "1.0.0",
-  "description": "Telegram Bot that greets people, powered by Cyclic.",
+  "description": "Telegram Bot that running as crypto agent, powered by EthBull.",
   "main": "dist/bot.js",
   "scripts": {
     "build": "tsc",
