@@ -1,16 +1,10 @@
 import { Bot, InlineKeyboard } from "grammy";
 import { Variant, applyTextEffect, type Variant as TextEffectVaiant } from './textEffects'
 import { chunk } from "lodash";
+import {introductionMessage} from "./greetings"
 
 // Create a bot using the Telegram token
 const bot = new Bot(process.env.TELEGRAM_TOKEN || "")
-
-const introductionMessage = `Hello! I'm a Telegram bot.
-I'm powered by David, the next-generation serverless computing platform.
-
-<b>Commands</b>
-/yo - Be greeted by me
-/effect [text] - Show a keyboard to apply text effects to [text]`;
 
 const aboutRulKeyboard = new InlineKeyboard().url(
   "Host you own bot for free.",

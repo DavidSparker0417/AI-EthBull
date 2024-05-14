@@ -3,10 +3,21 @@
   "runningPlatform": [
     "Ubuntu"
   ],
+  "CreatBot": {
+    "platform": "https://web.telegram.org/k/#@BotFather",
+    "method": [
+      "/newbot"
+    ],
+    "BotName": "EthBullAI",
+    "UserName": "@EthBullAI_Bot",
+    "address": "https://web.telegram.org/k/#@EthBullAI_Bot",
+    "token": "You can find it on .env or ../../readme.json",
+    "Owner": "@DavidSparker"
+  },
   "build": [
     "npm i"
   ],
   "run": [
-    ""
+    "npm run dev"
   ]
 }
