@@ -1,0 +1,4 @@
+.botinfo.json
+.env
+dist/
+node_modules/
