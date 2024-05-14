@@ -1,0 +1,12 @@
+{
+  "initalProject": "forked from https://github.com/DavidSparker0417/tgbot-test",
+  "runningPlatform": [
+    "Ubuntu"
+  ],
+  "build": [
+    "npm i"
+  ],
+  "run": [
+    ""
+  ]
+}
