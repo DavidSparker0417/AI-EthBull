@@ -1,7 +1,6 @@
-export const introductionMessage = `Hello! I'm a Telegram bot.
-I'm powered by David, the next-generation serverless computing platform.
+export const introductionMessage = `✨ Welcome to EthBull Ai✨
+EthBull AI is a pioneering platform designed to simplify the user experience in the DeFi sector by converting plain text commands into blockchain transactions.
 
-<b>Commands</b>
-/yo - Be greeted by me
-/effect [text] - Show a keyboard to apply text effects to [text]`;
+Let's Get Started
+Easily Setup your wallet to start trading using /wallets. Before embarking on your adventure with our amazing bot, make sure you give the complete user's guide a thorough read:`;
 

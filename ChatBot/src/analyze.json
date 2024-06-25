@@ -1,0 +1,25 @@
+{
+  "ctx.update": {
+    "update_id": 528238993,
+    "message": {
+      "message_id": 82,
+      "from": {
+        "id": 5023936303,
+        "is_bot": false,
+        "first_name": "David",
+        "last_name": "Sparker",
+        "username": "DavidSparker",
+        "language_code": "en"
+      },
+      "chat": {
+        "id": 5023936303,
+        "first_name": "David",
+        "last_name": "Sparker",
+        "username": "DavidSparker",
+        "type": "private"
+      },
+      "date": 1719246789,
+      "text": "abc"
+    }
+  }
+}
