@@ -20,6 +20,11 @@ export async function openAI_Ask(question: string, ctx: any) {
     //   ctx.reply(reply)
     // reply = ""
   }
-  if (ctx && ctx.reply)
-    ctx.reply(reply)
+  if (ctx && ctx.reply) {
+    try {
+      ctx.reply(reply) 
+    } catch (error) {
+      ctx.reply(error)
+    }
+  }
 }
